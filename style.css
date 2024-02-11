@@ -1,0 +1,48 @@
+.row {
+    margin-bottom: 50px; /* Add space between rows */
+}
+
+/* Gradient for the card */
+.card {
+    
+    background: linear-gradient(to bottom, #ffffff, #f2f2f2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px; /* Add margin for spacing */
+    padding: 20px; /* Add padding for spacing */
+    background-image: linear-gradient(to right, rgb(234, 216, 147) , rgb(47, 65, 85));
+    color: white;
+    text-align: center;
+}
+
+/* Equal space around the card */
+.card {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/* Ensure the cards have equal height */
+.card {
+    height: 100%;
+}
+
+/* Adjust the size of the card image */
+.card-img-top {
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+}
+
+.card-header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 287px;
+    bottom: 22px;
+    right: 20px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
